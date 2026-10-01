@@ -1,0 +1,6 @@
+[
+  { "name": "果实猎手", "command": "node", "args": ["bots/greedy.js"] },
+  { "name": "空间规划", "command": "node", "args": ["bots/spacious.js"] },
+  { "name": "均衡选手", "command": "node", "args": ["bots/balanced.js"] },
+  { "name": "巡游者", "command": "node", "args": ["bots/wander.js"] }
+]

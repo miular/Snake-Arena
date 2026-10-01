@@ -1,0 +1,23 @@
+# Local dependencies and environment settings
+node_modules/
+.env
+.env.*
+!.env.example
+
+# Generated matches and evaluation state
+/replays/*.json
+/evaluations/reports/*.json
+/evaluations/snapshots/
+/evaluations/champion.json
+
+# Local experiments and isolated contestant copies
+/_isolated_contestant_01_20260928/
+/bots/contestant_01.js
+/bots/local-*
+
+# Temporary files and operating system metadata
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+desktop.ini

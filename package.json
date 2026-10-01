@@ -1,0 +1,16 @@
+{
+  "name": "snake-arena",
+  "version": "1.0.0",
+  "private": true,
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test",
+    "evaluate": "node src/evaluate.js",
+    "tournament": "node src/tournament.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
